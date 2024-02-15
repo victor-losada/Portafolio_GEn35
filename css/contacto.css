@@ -27,6 +27,7 @@ aside {
     /* border: 2px solid; */
     display: flex;
     /* height: 100px; */
+    position: static;
     color: rgb(11, 7, 154);
 
     .picture_me {
@@ -210,6 +211,17 @@ aside {
        opacity: 0.5;
     }
 }
+.hola {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.name,
+.Email,
+.mensa {
+    /* margin-right: 500px; */
+    /* color: aqua; */
+}
 @media only screen and (max-width: 1300px) {
     /* Ajustes para el encabezado */
     
@@ -239,8 +251,18 @@ aside {
     .profile {
         position: absolute;
     }
+    .hola {
+        position: absolute;
+        margin-left: 550px;
+        margin-top: 50px;
+    }
+    .hola {
+        /* position: absolute; */
 
-    
+        display: flex;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
     
 
     .style-icon {

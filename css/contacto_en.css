@@ -89,6 +89,11 @@ aside {
     }
     
 }
+.hola {
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 50px;
+}
 
 .style-icon {
     /* display: flex;
@@ -226,6 +231,7 @@ aside {
     }
     .contact {
         width: 300px;
+        /* height: 300px; */
         /* height: 120px; */
         margin-left: 40px;
     }
@@ -238,7 +244,13 @@ aside {
         position: absolute;
     }
 
-    
+    .hola {
+        /* position: absolute; */
+
+        display: flex;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
     
 
     .style-icon {
