@@ -208,4 +208,60 @@ aside {
          resize: none; /*para que no se expanda*/
        opacity: 0.5;
     }
+}@media only screen and (max-width: 1300px) {
+    /* Ajustes para el encabezado */
+    
+    .icon {
+        align-items: center;
+    }
+
+    .picture_me {
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+    .main-box {
+        margin-left: 300px;
+    }
+    .contact {
+        width: 300px;
+        /* height: 120px; */
+        margin-left: 40px;
+    }
+    .name {
+        display: none;
+    }
+
+    /* Ajustes para el perfil */
+    .profile {
+        position: absolute;
+    }
+
+    
+    
+
+    .style-icon {
+        position: absolute;
+        /* text-align: center; */
+        display: flex;
+        margin-top: 550px;
+       
+    }
+
+    /* Ajustes para la barra lateral */
+    .barra_lat {
+        position: relative;
+        margin-top: 20px;
+        margin-left: 400px;
+    }
+   
+
+    .word {
+        
+        writing-mode: horizontal-tb;
+        text-align: center;
+        margin: 20px;
+    }
 }
+
