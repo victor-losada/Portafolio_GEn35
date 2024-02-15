@@ -227,9 +227,7 @@ h1 {
 /* Estilos específicos para dispositivos móviles */
 @media only screen and (max-width: 1300px) {
     /* Ajustes para el encabezado */
-    .body {
-        background-image: url(css/Group\ 84.svg);
-    }
+    
     .icon {
         align-items: center;
     }
