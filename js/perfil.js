@@ -4,6 +4,7 @@ let nigth =document.getElementById("nigth");
 let flag_us = document.getElementById("flag_us");
 let flag_es = document.getElementById("flag_es");
 
+
 bigcontainer.addEventListener("click",function(){
     if(container.classList.contains("container-1")){
     container.classList.add("container-2");

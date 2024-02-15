@@ -107,7 +107,7 @@ aside {
 .profile_picture{
     margin-top: 20px;
     position: absolute;
-    border-radius: 100px;
+    border-radius: 80%;
     /* align-items: flex-start; */
     margin-left:-451px ;
 
