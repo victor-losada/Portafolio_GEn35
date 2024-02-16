@@ -105,11 +105,12 @@ aside {
     text-align: center;
 }
 .profile_picture{
-    margin-top: 20px;
+    margin-top: 60px;
     position: absolute;
-    border-radius: 80%;
+    border-radius: 100%;
+    margin-bottom: 10px;
     /* align-items: flex-start; */
-    margin-left:-451px ;
+    margin-left:-471px ;
 
     /* .text_profile {
         position: relative;
