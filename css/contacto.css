@@ -222,6 +222,24 @@ aside {
     /* margin-right: 500px; */
     /* color: aqua; */
 }
+.animation-container {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    animation: typing 2s infinite alternate;
+  }
+  
+  @keyframes typing {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1; 
+    }
+    100% {
+      opacity: 0; 
+    }
+  }
 @media only screen and (max-width: 1300px) {
     /* Ajustes para el encabezado */
     
@@ -287,5 +305,9 @@ aside {
         text-align: center;
         margin: 20px;
     }
+    .animation-container {
+        display: none;
+    }
 }
 
+  

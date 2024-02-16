@@ -219,13 +219,34 @@ h1 {
     height: 23px;
     /* z-index: 10; */
 }
+.animation-container {
+    margin-top: -20px;
+    font-size: 24px;
+    font-weight: bold;
+    animation: typing 2s infinite alternate;
+  }
+  
+  @keyframes typing {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1; 
+    }
+    100% {
+      opacity: 0; 
+    }
+  }
+
 @media only screen and (max-width: 1300px) {
     /* Ajustes para el encabezado */
     
     .icon {
         align-items: center;
     }
-
+    .animation-container{
+        display: none;
+    }
     .picture_me {
         border-radius: 50%;
         width: 120px;
